@@ -1,0 +1,105 @@
+.hDesc{
+    padding-top: 100px;
+    color: white;
+    margin-bottom: 80px;
+}
+.hdHead{
+    color: rgb(201, 199, 199);
+    font-size: 12px;
+    font-weight: 650;
+    margin-bottom: 5px;
+}
+.hdHead span{
+    margin-left: 5px;
+    font-weight: 800;
+    color: white;
+}
+.hdText{
+    width: 550px;
+    font-weight: 700;
+    font-size: 57px;
+    letter-spacing: 1.5px;
+    line-height: 63px;
+}
+.hdBtnCon{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    justify-content: space-between;
+    width: 310px;
+    margin-bottom: 20px;
+}
+.hdBtnCon button{
+    padding: 8px 20px;
+    font-size: 12px;
+    font-weight: 650;
+    border: 3px solid red;
+    width: 150px;
+}
+.hdBtnCon .wh{
+    background: red;
+}
+.hOption{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+}
+.oHead{
+    font-weight: 700;
+    font-size: 19px;
+}
+.oH2{
+    font-weight: 500;
+    color: rgb(166, 166, 167);
+}
+.oHred{
+    color: red;
+}
+.oList{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding: 9px 30px 9px 9px;
+    border: 2px solid rgba(68, 68, 68, 0.603);
+}
+.dn{
+    border: 2px solid rgba(68, 68, 68, 0.603);
+    border-left: none;
+    padding: 11px;
+    width: 46px;
+    height: 46px;
+}
+.type{
+    color: rgb(123, 124, 124);
+    font-weight: 500;
+}
+.option{
+    display: flex;
+}
+.all{
+    color: white;
+}
+ul{
+    display: none;
+}
+.flexCard{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    align-items: center;
+}
+.card{
+    margin-right: 20px;
+    font-weight: 650;
+    letter-spacing: .3px;
+}
+.cardImg{
+    width: 220px;
+    height: 190px;
+}
+.cardHead{
+    margin-top: 9px;
+}
+.cardDesc{
+    color: rgba(99, 98, 98, 0.856);
+}

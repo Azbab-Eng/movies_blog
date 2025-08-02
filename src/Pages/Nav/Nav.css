@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+}
+img{
+    width: 25px;
+    height: 25px;
+}
+.profile img{
+    height: 37px;
+    width: 37px;
+    border-radius: 50%;
+}
+
+nav{
+    font-weight: 650;
+    display: flex;
+    align-items: center;
+    background: rgb(245, 245, 245);
+    font-size: 15px;
+}
+.harmb{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    padding:15px;
+}
+.upload{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(95, 95, 95);
+    padding:15px;
+    color: white;
+    width: 130px;
+}
+.arrows{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:14px;
+    width: 150px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 5;
+    padding:8px;
+    border-left:1.5px groove rgb(221, 220, 220);
+}
+.search-inp{
+    background: rgb(231, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 450px;
+    height: 40px;
+}
+input::placeholder{
+    color: rgb(197, 196, 196);
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px;
+    width: 200px;
+    margin-right: 10px;
+}
+.cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px;
+    width: 115px;
+    border-left:1.5px groove rgb(221, 220, 220);
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:7px 15px;
+    width: 125px;
+    margin-right: 40px;
+    margin-left: 10px;
+    border-left:1.5px groove rgb(221, 220, 220);
+}
+.menu{
+    color:rgb(161, 161, 161) ;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    background: rgba(22, 21, 21, 0.712); 
+}
+.menu_list{
+    width: 540px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu_text{
+    padding: 15px 23px;
+    height: 100%;
+    letter-spacing: 1px;
+}
+.menu_text.active{
+    border-bottom: 2px solid red;
+    color: white;
+}
+.menu_text:hover{
+    border-bottom: 2px solid red;
+    color: white;
+}

@@ -1,0 +1,68 @@
+.release{
+    padding: 30px 80px;
+    color: white;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flx{
+    position: relative;
+}
+.rgt{
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    background: white;
+    border-radius: 50%;
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+}
+.Brgt{
+    position: absolute;
+    right: -20px;
+    top: 205px;
+    background: white;
+    border-radius: 50%;
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+}
+.rCard{
+    margin: 50px 0;
+    position: relative;
+}
+.rCards{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: -20px;
+    /* position: relative; */
+}
+.box{
+    /* background: url("../../assets/hrl19.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+    /* border: 1px solid white; */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+    font-weight: 700;
+    padding-bottom: 38px;
+    margin-right: 20px;
+}
+.hBox{
+    font-size: 19px;
+}
+.pBox{
+    font-size: 17px;
+    margin-top: 5px;
+    color: rgba(126, 127, 128, 0.932);
+}

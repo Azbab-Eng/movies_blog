@@ -1,0 +1,93 @@
+.galleries{
+    /* padding:20px 80px 20px 80px; */
+}
+.tittle{
+    display: flex;
+    align-items: center;
+}
+.tittle img{
+    margin: 15px;
+    padding: 5px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:20px 80px 20px 80px;
+}
+.gCards{
+    display: flex;
+    color: rgba(92, 92, 92, 0.795);
+    flex-direction: column;
+}
+.eCard{
+    margin-right: 25px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 2px solid rgba(146, 147, 148, 0.199);
+}
+.eNo{
+    width: 20px;
+    margin-right: 20px;
+    margin-left: 7px;
+}
+.eImg{
+    width: 70px;
+    height: 70px;
+}
+.eImg img{
+    width: 100%;
+    height: 100%;
+}
+.eName{
+    flex: 1;
+    margin-left: 20px;
+}
+.eName h1{
+    color: white;
+}
+.eName p{
+    font-size: 15px;
+}
+.eTime{
+    width: 120px;
+}
+.eShare,.eMenu{
+    width: 80px;
+}
+.eMenu{
+    margin-right: -30px;
+}
+
+.gHero{
+    background: url('../../assets/pd.jpeg');
+    margin: 20px 0 30px 0;
+    color: rgb(12, 12, 12);
+    height: 300px;
+    border: 1px solid transparent;
+}
+.gHeroText{
+    /* width: 200px; */
+    display: flex;
+    align-items: center;
+    margin-top: 170px;
+    margin-left: 50px;
+    font-size: 23px;
+    font-weight: 650;
+}
+.gHeroText img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 15px ;
+    background: rgb(22, 58, 56);
+}
+.gHeroText p{
+    line-height: 27px;
+    width: 300px;
+    letter-spacing: 1.2px;
+}

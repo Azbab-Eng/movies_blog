@@ -1,0 +1,10 @@
+.hero{
+    padding:0 0 30px 80px;
+    color: white;
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.959) 10%,rgba(27, 27, 27, 0.74) 25%,transparent 30%,transparent 35%,rgba(24, 24, 24, 0.945) 38%,rgba(24, 24, 24, 0.979) 50%),url("../../assets/hr.jpg");
+    /* background: url("../../assets/hr.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .8;
+}
