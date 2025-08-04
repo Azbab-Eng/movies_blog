@@ -10,6 +10,7 @@ import vm from '../../assets/vm.png'
 import pl from '../../assets/pl.png'
 import shopping from '../../assets/shopping.svg'
 import './Foot.css'
+
 function Foot() {
   return (
     <div className='foot'>
