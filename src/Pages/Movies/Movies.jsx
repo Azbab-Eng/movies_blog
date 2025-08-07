@@ -15,9 +15,6 @@ export function MovieCard({movies}){
             {movies.map((movie)=>(
                 <div className='mCard' style={{background:`url(${hrl15})`}}>
                     <div className="mCardText">
-                        <div >
-                            <img src={hrl19} alt="" />
-                        </div>
                         <img src={play} alt="" />
                         <p>{movie.desc}</p>
                     </div>
