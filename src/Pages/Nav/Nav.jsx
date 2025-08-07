@@ -14,7 +14,7 @@ import './Nav.css'
 
 export const TopNav = ()=> {
   return (
-    <div>
+    <div className='navcon'>
       <nav>
         <div className='harmb'>
             <img src={menu} alt="" />
